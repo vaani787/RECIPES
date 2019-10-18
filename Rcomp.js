@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Rcomp = ({title, calories , image, ingredients }) => {
+const Rcomp = ({title, calories , image, ingredients, ratings, availability  }) => {
     return(
 <div>
     <h1>{title}</h1>
